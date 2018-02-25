@@ -10,11 +10,14 @@ body {
   width: 250px;
 }
 
-.row {
-  padding-bottom: 15px; 
+.container {
+  margin-left: 15px;
 }
 
-/* font-family: 'VT323', monospace; */
+.row {
+  padding-bottom: 15px;
+}
+
 nav {
   font-family: 'VT323', monospace;
   font-stretch: 10;
@@ -23,9 +26,9 @@ nav {
 }
 
 nav:link {
-  color: #aaaaee;
+  color: #9999ee;
 }
 
 .background {
-  color: #aaaaee;
+  color: #9999ee;
 }
