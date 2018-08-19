@@ -1,55 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <div class="background">
-<head>
-  <title>Alice Li - Projects</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <head>
+    <title>Alice Li - Projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- customization, stylesheet -->
-  <link rel="stylesheet" href="mysitecss.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <!-- customization, stylesheet -->
+    <link rel="stylesheet" href="mysitecss.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
-</head>
-
-<body>
-
-<nav class="navbar navbar-inverse">
-  <ul class="nav navbar-nav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="pixels.html">Pixel Art</a></li>
-  </ul>
-</nav>
-
-<p>
-    <h1 style="margin-left:30px">Projects</h1>
-<div class="row">
-
-  <div class="col-sm-2" style="margin-left:30px">
-
-      <h3><a href="https://github.com/goldfeyesh/">My Github</a></h3>
-
-      <h3>Mouse</h3>
-      See <a href="http://cs.wellesley.edu/~cs307/threejs/contrib/ali7Mouse/ali7MouseDemo.html">demo of mouse model</a>
+    <header>
       <p>
-      See <a href="http://cs.wellesley.edu/~cs307/threejs/contrib/ali7Mouse/ali7MouseWalk.html">demo of mouse walking</a>
-      <p>
-      <img src="http://cs.wellesley.edu/~ali7/cs307-graphics-project-final/mousewalk1.png"></img>
+        <a href="index.html">
+          <img src="logo4x.png" width="404" height="96" style="margin-left: 35px"></img>
+        </a>
+      </p>
 
-  </div>
+      <nav class="navbar navbar-inverse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  </head>
+
+  <body>
+
+    <p>
+      <h1 style="margin-left:30px">Projects</h1>
+      <p style="margin-left:33px">Here are some projects I've worked on. <a href="https://github.com/goldfeyesh/">Find my Github here.</a></p>
+
+      <div class="row" style="margin-left:18px">
+
+        <div class="col-sm-6">
 
 
-  <div class="col-sm-2">
+          <h3>Line Slider: Paint the World!</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZXFe5VmBXTQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <br></br>
 
-  </div>
-</p>
+          <p>As a Summer Innovation Program 2018 Intern at <a href="https://www.massdigi.org/">MassDiGI</a>, I was Lead Programmer for the game Line Slider.</p>
+          <ul>
+            <li>I created 5 game mechanic prototypes.</li>
+            <li>I led frequent code reviews to ensure our code was clean and efficient.</li>
+            <li>I designed and implemented an audio manager instead of using external audio tools.</li>
+              <ul>
+                <li>This allowed us to implement audio easily according to our design specifications.</li>
+                <li>We were able to debug audio issues easily.</li>
+                <li>Because we did not use external audio tools, our game was more lightweight.</li>
+              </ul>
+            <li>I created a monetization model for the game.</li>
+            <li>I fixed bugs of all priorities.</li>
 
-</body>
-</div>
-</html>
+          </ul>
+
+          <br></br>
+
+          <h3>Mouse</h3>
+          <p>I made this mouse in JavaScript, using <a href="https://threejs.org/">Three.js</a>
+            <br></br>
+            See <a href="http://cs.wellesley.edu/~cs307/threejs/contrib/ali7Mouse/ali7MouseDemo.html">demo of mouse model, made in Web GL</a>
+            <br></br>
+            See <a href="mouseWalkDemo.html">see a demo of mouse walking with WASD controls</a>
+          </p>
+          <p>
+            <img src="mouseX.png" width="315" height="300"></img>
+            <img src="mouseY.png" width="315" height="300"></img>
+            <img src="mouseZ.png" width="315" height="300"></img>
+            <img src="mousediag.png" width="315" height="300"></img>
+          </p>
+
+        </div>
+
+        <div class="col-sm-2">
+
+          <h4>Contact me:</h4>
+          <a href="mailto:ali7@wellesley.edu">
+            <img src="https://zv893kwy4t3aji512fdckhgk-wpengine.netdna-ssl.com/wp-content/uploads/gmail-icon.png" width="25" height="25"></img>
+            ali7@wellesley.edu
+            <a>
+              <br></br>
+
+              <a href="https://www.linkedin.com/in/alice-li-621903113/">
+                <img src="https://i0.wp.com/www.vectorico.com/wp-content/uploads/2018/02/LinkedIn-Icon-squircle.png?resize=300%2C300" width="25" height="25"></img>
+                My LinkedIn
+              </a>
+
+              <br></br>
+
+              <a href="https://twitter.com/goldfeyesh">
+                <img src="http://www.pngall.com/wp-content/uploads/2016/07/Twitter-Download-PNG.png" width="25" height="25"></img>
+                @goldfeyesh
+              </a>
+
+              <br></br>
+
+              <a href="https://github.com/goldfeyesh">
+                <img src="https://www.shareicon.net/data/2015/09/15/101512_logo_512x512.png" width="25" height="25"></img>
+                goldfeyesh
+              </a>
+
+            </div>
+
+          </p>
+        </body>
+      </div>
+
+    </div>
+
+    </html>
